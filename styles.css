@@ -27,9 +27,19 @@ body {
     color: #34345c;
     text-decoration: none;
     margin: 0 6px;
+    display: inline-block;
+    padding: 8px 18px;
+    background: #e0e4ef;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    transition: background 0.2s, color 0.2s;
 }
 .chan-boardlist a:hover {
     text-decoration: underline;
+    background: #d6daf0;
+    color: #af0a0f;
 }
 .chan-main {
     max-width: 900px;
