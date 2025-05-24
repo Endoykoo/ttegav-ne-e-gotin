@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: 'Verdana', Arial, Helvetica, sans-serif;
+    background: #eef2ff;
+    color: #222;
+}
+
+.chan-header {
+    background: #d6daf0;
+    border-bottom: 1px solid #b7c5d9;
+    padding: 16px 0 8px 0;
+    text-align: center;
+}
+.chan-header h1 {
+    font-size: 2.2rem;
+    color: #af0a0f;
+    margin: 0;
+    font-family: 'Trebuchet MS', Verdana, Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+.chan-boardlist {
+    font-size: 1rem;
+    margin: 8px 0 0 0;
+    color: #34345c;
+}
+.chan-boardlist a {
+    color: #34345c;
+    text-decoration: none;
+    margin: 0 6px;
+    display: inline-block;
+    padding: 8px 18px;
+    background: #e0e4ef;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    transition: background 0.2s, color 0.2s;
+}
+.chan-boardlist a:hover {
+    text-decoration: underline;
+    background: #d6daf0;
+    color: #af0a0f;
+}
+.chan-main {
+    max-width: 900px;
+    margin: 32px auto;
+    background: #f0f4fa;
+    border: 1px solid #b7c5d9;
+    border-radius: 6px;
+    padding: 24px 18px;
+}
+.chan-post {
+    background: #fff;
+    border: 1px solid #b7c5d9;
+    border-radius: 4px;
+    margin-bottom: 18px;
+    padding: 12px 14px;
+    font-size: 1rem;
+}
+.chan-post .subject {
+    color: #0f0c5d;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.chan-post .name {
+    color: #117743;
+    font-weight: bold;
+    margin-right: 8px;
+}
+.chan-post .date {
+    color: #789922;
+    font-size: 0.95rem;
+    margin-right: 8px;
+}
+.chan-post .comment {
+    margin-top: 6px;
+    line-height: 1.5;
+}
+.chan-footer {
+    text-align: center;
+    color: #888;
+    font-size: 0.95rem;
+    padding: 24px 0 12px 0;
+    background: none;
+}
