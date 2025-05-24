@@ -28,8 +28,10 @@
 <body class="bg-star-dark text-white">
     <nav class="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4 py-3 mx-2 mt-3 backdrop-blur-lg bg-star-gray/50 rounded-2xl border border-star-border/50">
         <div class="flex items-center gap-2 flex-shrink-0 mx-auto md:mx-0 md:justify-start justify-center w-full md:w-auto">
-            <img src="logo/vbucks_logo.webp"" class="w-10 h-10 rounded-xl hover:scale-110 transition-all" alt="Star Logo">
-            <span class="text-xl font-bold">V-Coin<span class="text-star-yellow">.shop</span></span>
+            <a href="index.html" class="flex items-center gap-2">
+                <img src="logo/vbucks_logo.webp" class="w-10 h-10 rounded-xl hover:scale-110 transition-all" alt="V-Coin Logo">
+                <span class="text-[1.4rem] font-bold">V-Coin<span class="text-star-yellow">.shop</span></span>
+            </a>
         </div>
         <div class="hidden md:flex flex-1 justify-center" id="nav-menu">
             <div class="flex flex-col md:flex-row md:items-center gap-2 md:gap-8">
@@ -56,75 +58,25 @@
     <section id="pricing" class="py-32 px-4 relative">
         <div class="max-w-6xl mx-auto">
             <h2 class="text-4xl font-bold text-center mb-16">
-                <span class="text-star-yellow">Цени</span>
+                <span class="text-star-yellow">Избери категория</span>
             </h2>
             <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-                <div class="bg-star-gray p-8 rounded-2xl border border-star-border relative overflow-hidden group hover:border-star-yellow/50 transition-all">
+                <!-- Майнкрафт акаунти -->
+                <a href="minecraft-prices.html" class="bg-star-gray p-8 rounded-2xl border border-star-border relative overflow-hidden group hover:border-star-yellow/50 transition-all flex flex-col items-center hover:scale-105">
                     <div class="absolute top-0 right-0 bg-star-yellow/20 w-64 h-64 blur-[100px] rounded-full transition-all group-hover:blur-[120px]"></div>
-                    <div class="relative">
-                        <span class="text-star-yellow text-sm font-semibold">MONTHLY</span>
-                        <h3 class="text-4xl font-bold mt-2 mb-4">$25</h3>
-                        <div class="space-y-4 mb-8">
-                            <div class="flex items-center gap-3">
-                                <i class="fa-solid fa-check text-star-yellow"></i>
-                                <span>Next-Gen AI Predictions</span>
-                            </div>
-                            <div class="flex items-center gap-3">
-                                <i class="fa-solid fa-check text-star-yellow"></i>
-                                <span>Advanced Theme System</span>
-                            </div>
-                            <div class="flex items-center gap-3">
-                                <i class="fa-solid fa-check text-star-yellow"></i>
-                                <span>Real-time Analytics</span>
-                            </div>
-                            <div class="flex items-center gap-3">
-                                <i class="fa-solid fa-check text-star-yellow"></i>
-                                <span>Priority Support</span>
-                            </div>
-                        </div>
-                        <a href="https://discord.gg/predictor" class="group block text-center py-3 px-6 bg-star-yellow rounded-xl hover:bg-star-yellow/90 transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-star-yellow/20 flex items-center justify-center gap-2">
-                            <i class="fas fa-rocket text-xl"></i>
-                            <span>Pre-order Now</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="bg-star-gray p-8 rounded-2xl border border-star-border relative overflow-hidden group hover:border-star-yellow/50 transition-all">
+                    <img src="logo/minecraft.png" alt="Minecraft" class="w-40 h-37 mb-4 rounded-xl shadow-lg">
+                    <span class="text-2xl font-bold text-star-yellow mb-2">Майнкрафт акаунти</span>
+                    <span class="text-gray-300 text-center">Открий най-добрите цени за Minecraft акаунти!</span>
+                </a>
+                <!-- Vbucks -->
+                <a href="vbucks-prices.html" class="bg-star-gray p-8 rounded-2xl border border-star-border relative overflow-hidden group hover:border-star-yellow/50 transition-all flex flex-col items-center hover:scale-105">
                     <div class="absolute top-0 right-0 bg-star-yellow/20 w-64 h-64 blur-[100px] rounded-full transition-all group-hover:blur-[120px]"></div>
-                    <div class="relative">
-                        <span class="text-star-yellow text-sm font-semibold">LIFETIME</span>
-                        <h3 class="text-4xl font-bold mt-2 mb-4">$65</h3>
-                        <div class="space-y-4 mb-8">
-                            <div class="flex items-center gap-3">
-                                <i class="fa-solid fa-check text-star-yellow"></i>
-                                <span>All Monthly Features</span>
-                            </div>
-                            <div class="flex items-center gap-3">
-                                <i class="fa-solid fa-check text-star-yellow"></i>
-                                <span>Exclusive V9 Beta Access</span>
-                            </div>
-                            <div class="flex items-center gap-3">
-                                <i class="fa-solid fa-check text-star-yellow"></i>
-                                <span>Lifetime Support</span>
-                            </div>
-                            <div class="flex items-center gap-3">
-                                <i class="fa-solid fa-check text-star-yellow"></i>
-                                <span>Bonus Features</span>
-                            </div>
-                        </div>
-                        <a href="https://discord.gg/predictor" class="group block text-center py-3 px-6 bg-star-yellow rounded-xl hover:bg-star-yellow/90 transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-star-yellow/20 flex items-center justify-center gap-2">
-                            <i class="fas fa-rocket text-xl"></i>
-                            <span>Pre-order Now</span>
-                        </a>
-                    </div>
-                </div>
+                    <img src="logo/vbucks_logo.webp" alt="Vbucks" class="w-19 h-28 mb-4 rounded-xl shadow-lg">
+                    <span class="text-2xl font-bold text-star-yellow mb-2">Vbucks</span>
+                    <span class="text-gray-300 text-center">Вземи Vbucks на топ цени!</span>
+                </a>
             </div>
         </div>
     </section>
-
-    <footer class="py-8 px-4 border-t border-star-border">
-        <div class="max-w-6xl mx-auto text-center text-gray-400">
-            <p>© 2025 V-Coin.Shop. All rights reserved.</p>
-        </div>
-    </footer>
 </body>
 </html>
