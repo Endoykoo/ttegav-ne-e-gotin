@@ -37,15 +37,46 @@
     <div class="fixed w-[500px] h-[500px] bg-star-yellow/20 rounded-full blur-[150px] -bottom-64 -left-64 animate-pulse"></div>
 
     <nav class="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4 py-3 mx-2 mt-3 backdrop-blur-lg bg-star-gray/50 rounded-2xl border border-star-border/50">
+        <!-- Left: Logo and Title -->
         <div class="flex items-center gap-2 flex-shrink-0 w-auto">
             <a href="index.html" class="flex items-center gap-2">
                 <img src="logo/vbucks_logo.webp" class="w-10 h-10 rounded-xl hover:scale-110 transition-all" alt="V-Coin Logo">
                 <span class="text-[1.4rem] font-bold">
-                    V-Coin<span class="text-star-yellow">.shop</span><span class="align-top text-xs text-star-yellow ml-1" style="letter-spacing:1px;">BETA</span>
+                    V-Coin<span class="text-star-yellow">.shop</span>
+                    <span class="align-top text-xs text-star-yellow ml-0 p-0" style="letter-spacing:1px;margin-left:0px;">BETA</span>
                 </span>
             </a>
         </div>
-        <!-- ...navigation as in other pages... -->
+        <!-- Desktop Navigation -->
+        <div class="hidden md:flex flex-1 justify-center" id="nav-menu">
+            <div class="flex flex-col md:flex-row md:items-center gap-2 md:gap-8">
+                <a href="index.html#hero" class="group flex items-center gap-2 px-4 py-2 bg-star-gray rounded-xl border border-star-border text-white hover:border-star-yellow hover:text-star-yellow transition-all justify-center">
+                    <i class="fas fa-home text-star-yellow text-xl group-hover:rotate-12 transition-all"></i>
+                    <span>Начало</span>
+                </a>
+                <a href="index.html#features" class="group flex items-center gap-2 px-4 py-2 bg-star-gray rounded-xl border border-star-border text-white hover:border-star-yellow hover:text-star-yellow transition-all justify-center">
+                    <i class="fas fa-question text-star-yellow text-xl group-hover:rotate-12 transition-all"></i>
+                    <span>Защо нас?</span>
+                </a>
+                <a href="prices.html" class="group flex items-center gap-2 px-4 py-2 bg-star-gray rounded-xl border border-star-border text-white hover:border-star-yellow hover:text-star-yellow transition-all justify-center">
+                    <i class="fas fa-credit-card text-star-yellow text-xl group-hover:rotate-12 transition-all"></i>
+                    <span>Цени</span>
+                </a>
+            </div>
+        </div>
+        <!-- Desktop Cart & Discord -->
+        <div class="hidden md:flex items-center">
+            <a href="https://discord.gg/predictor" class="items-center gap-2 px-4 py-2 bg-star-gray text-star-yellow border-2 border-star-yellow rounded-xl hover:bg-star-yellow hover:text-white transition-all hover:scale-105 hover:shadow-lg hover:shadow-star-yellow/20 ml-4 justify-center">
+                <i class="fab fa-discord text-xl"></i>
+                <span class="hidden md:block">Join Discord</span>
+            </a>
+        </div>
+        <!-- Mobile Cart Button Only -->
+        <!-- <div class="flex md:hidden items-center ml-auto">
+            <a href="cart.html" class="items-center px-0 py-0 ml-2">
+                <img src="logo/shopping-cart.png" alt="Cart" class="w-10 h-10 rounded-xl hover:scale-110 transition-all" />
+            </a>
+        </div> -->
     </nav>
 
     <section class="min-h-screen flex items-center justify-center px-4 relative">
