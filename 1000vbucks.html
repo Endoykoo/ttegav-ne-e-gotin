@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="bg" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#FFCB05"> 
+    <meta property="og:title" content="">
+    <meta property="og:description" content="V-Coin">
+    <meta property="og:image" content="assets/images/logo.png">
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+    <title>1000 V-Bucks</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        star: {
+                            yellow: '#FFCB05',
+                            dark: '#0C0C0C',
+                            gray: '#161616',
+                            border: '#313131'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body class="bg-star-dark text-white">
+
+    <div class="fixed w-[500px] h-[500px] bg-star-yellow/20 rounded-full blur-[150px] -top-64 -right-64 animate-pulse"></div>
+    <div class="fixed w-[500px] h-[500px] bg-star-yellow/20 rounded-full blur-[150px] -bottom-64 -left-64 animate-pulse"></div>
+
+    <nav class="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4 py-3 mx-2 mt-3 backdrop-blur-lg bg-star-gray/50 rounded-2xl border border-star-border/50">
+        <div class="flex items-center gap-2 flex-shrink-0 w-auto">
+            <a href="index.html" class="flex items-center gap-2">
+                <img src="logo/vbucks_logo.webp" class="w-10 h-10 rounded-xl hover:scale-110 transition-all" alt="V-Coin Logo">
+                <span class="text-[1.4rem] font-bold">V-Coin<span class="text-star-yellow">.shop</span></span>
+            </a>
+        </div>
+        <!-- ...navigation as in other pages... -->
+    </nav>
+
+    <section class="min-h-screen flex items-center justify-center px-4 relative">
+        <div class="flex flex-col md:flex-row items-center justify-center w-full max-w-5xl mt-32 gap-8" data-aos="fade-up">
+            <!-- Left: Product Image -->
+            <div class="w-full md:w-1/2 flex justify-center">
+                <img src="logo/1000vbucks.png" alt="1000 V-Bucks" class="rounded-2xl shadow-lg w-full max-w-[480px] h-auto object-contain" />
+            </div>
+            <!-- Right: Product Description -->
+            <div class="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left">
+                <span class="mb-2 text-3xl font-bold text-star-yellow drop-shadow-lg">11.99лв</span>
+                <h1 class="text-4xl font-bold mb-4">1000 V-Bucks</h1>
+                <p class="text-lg text-gray-300 mb-6">
+                    Вземете 1000 V-Bucks за Fortnite на най-добра цена! <br>
+                    Перфектен избор за малки покупки и Battle Pass.
+                </p>
+                <a href="https://www.paypal.com/ncp/payment/3BHQL79ZAKT4E" target="_blank"
+                   class="mt-4 px-8 py-3 bg-star-yellow text-black font-bold rounded-xl text-xl shadow-lg hover:bg-yellow-400 transition-all">
+                    КУПИ
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 px-4 border-t border-star-border mt-12">
+        <div class="max-w-6xl mx-auto text-center text-gray-400">
+            <p>© 2025 V-Coin.Shop. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+    </script>
+</body>
+</html>
